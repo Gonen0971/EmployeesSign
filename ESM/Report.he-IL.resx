@@ -134,20 +134,11 @@
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>615, 100</value>
   </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 80</value>
-  </data>
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>1007, 101</value>
-  </data>
-  <data name="btnSelect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 114</value>
   </data>
   <data name="checkBoxDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -161,17 +152,8 @@
   <data name="checkBoxEName.Location" type="System.Drawing.Point, System.Drawing">
     <value>673, 99</value>
   </data>
-  <data name="checkBoxDocName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBoxDocName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 80</value>
-  </data>
   <data name="comboBox_EmpName.Location" type="System.Drawing.Point, System.Drawing">
     <value>393, 93</value>
-  </data>
-  <data name="comboBoxDocName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 77</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Alef, 15.75pt, style=Bold, Underline</value>
@@ -462,11 +444,32 @@
   <data name="sideBarPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 623</value>
   </data>
+  <data name="btnSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 73</value>
+  </data>
+  <data name="checkBoxDocName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDocName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 30</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 30</value>
+  </data>
+  <data name="comboBoxDocName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 27</value>
+  </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 15</value>
+    <value>13, 71</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1086, 173</value>
+    <value>1086, 130</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value> </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1244, 897</value>

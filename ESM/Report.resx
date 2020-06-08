@@ -152,23 +152,20 @@
   <data name="&gt;&gt;Mobile.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;documentsTableAdapter.Name" xml:space="preserve">
-    <value>documentsTableAdapter</value>
-  </data>
   <data name="&gt;&gt;dataGridView.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;empSignDBDataSet.Type" xml:space="preserve">
-    <value>EmployeeManagementSystem.EmpSignDBDataSet, EmpSignDBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 81</value>
   </data>
   <data name="checkBoxEName.Location" type="System.Drawing.Point, System.Drawing">
     <value>877, 128</value>
   </data>
   <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
     <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="checkBoxDocName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
   </data>
   <data name="&gt;&gt;checkBoxDate.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -200,9 +197,6 @@
   <data name="&gt;&gt;signEventsBindingSource.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Btn_ResendDoc.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
     <value>שם העובד</value>
   </data>
@@ -215,6 +209,9 @@
   <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
     <value>ת.ז.</value>
   </data>
+  <data name="&gt;&gt;checkBoxDocName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;Email.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -223,9 +220,6 @@
   </data>
   <data name="comboBoxDocName.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 21</value>
-  </data>
-  <data name="sideBarPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>67</value>
   </data>
   <data name="&gt;&gt;FullName.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -239,8 +233,8 @@
   <data name="&gt;&gt;sideBarPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;logoPanel.Name" xml:space="preserve">
-    <value>logoPanel</value>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -253,9 +247,6 @@
   </data>
   <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonMarker.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>
@@ -271,6 +262,9 @@
   </data>
   <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
     <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -3448,20 +3442,17 @@
         AAD+HwAA
 </value>
   </data>
+  <data name="&gt;&gt;checkBoxDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="&gt;&gt;dataGridView.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 693</value>
   </data>
   <data name="&gt;&gt;EmployeeNum.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
-  </data>
-  <data name="btnSelect.Text" xml:space="preserve">
-    <value>בצע</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>תאריך</value>
@@ -3479,9 +3470,6 @@
   <data name="btnSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;Department.Name" xml:space="preserve">
-    <value>Department</value>
-  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3491,8 +3479,11 @@
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="logoPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="btnSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="Lbl_MainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 29</value>
   </data>
   <data name="Signed.HeaderText" xml:space="preserve">
     <value>נחתם</value>
@@ -3502,6 +3493,9 @@
   </data>
   <data name="dataGridView.TabIndex" type="System.Int32, mscorlib">
     <value>66</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>819, 129</value>
   </data>
   <data name="&gt;&gt;EventID.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3515,11 +3509,17 @@
   <data name="ButtonMarker.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="&gt;&gt;empSignDBDataSet.Name" xml:space="preserve">
+    <value>empSignDBDataSet</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="Btn_ResendDoc.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>180</value>
   </data>
   <data name="checkBoxDocName.Location" type="System.Drawing.Point, System.Drawing">
     <value>877, 173</value>
@@ -3527,32 +3527,29 @@
   <data name="sideBarPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 100</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
   <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 20</value>
   </data>
   <data name="&gt;&gt;Email.Name" xml:space="preserve">
     <value>Email</value>
   </data>
-  <data name="Department.Width" type="System.Int32, mscorlib">
-    <value>150</value>
+  <data name="btnSelect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>561, 26</value>
   </data>
-  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
-    <value>btnCancel</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn5</value>
+  <data name="Department.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="checkBoxDate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBoxEName.TabIndex" type="System.Int32, mscorlib">
-    <value>60</value>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;Department.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_SelectForm.Parent" xml:space="preserve">
     <value>sideBarPanel</value>
@@ -3590,15 +3587,6 @@
   <data name="Btn_MissingDocs.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 39</value>
   </data>
-  <data name="&gt;&gt;Department.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 59</value>
-  </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
@@ -3616,6 +3604,9 @@
   </data>
   <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
     <value>מספר עובד</value>
+  </data>
+  <data name="ID.HeaderText" xml:space="preserve">
+    <value>ID</value>
   </data>
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3638,6 +3629,9 @@
   <data name="&gt;&gt;Btn_ResendDoc.Parent" xml:space="preserve">
     <value>sideBarPanel</value>
   </data>
+  <data name="EmployeeNum.HeaderText" xml:space="preserve">
+    <value>ת.ז. עובד</value>
+  </data>
   <data name="&gt;&gt;comboBoxDocName.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
@@ -3656,6 +3650,9 @@
   <data name="&gt;&gt;checkBoxEName.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="&gt;&gt;checkBoxDate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -3664,9 +3661,6 @@
   </data>
   <data name="&gt;&gt;EmployeeNum.Name" xml:space="preserve">
     <value>EmployeeNum</value>
-  </data>
-  <data name="&gt;&gt;checkBoxEName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3680,14 +3674,14 @@
   <data name="&gt;&gt;logoPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;emploeesTableAdapter.Name" xml:space="preserve">
-    <value>emploeesTableAdapter</value>
-  </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 12</value>
   </data>
   <data name="Lbl_MainMenu.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="&gt;&gt;ID.Name" xml:space="preserve">
     <value>ID</value>
@@ -3695,11 +3689,11 @@
   <data name="comboBox_EmpName.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 21</value>
   </data>
+  <data name="EventID.HeaderText" xml:space="preserve">
+    <value>מזהה</value>
+  </data>
   <data name="&gt;&gt;checkBoxEName.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>שם עובד</value>
   </data>
   <data name="checkBoxDocName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3716,14 +3710,20 @@
   <data name="Btn_MissingDocs.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Btn_MissingDocs.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;sideBarPanel.Name" xml:space="preserve">
+    <value>sideBarPanel</value>
   </data>
   <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>68</value>
+  <data name="&gt;&gt;ButtonMarker.Parent" xml:space="preserve">
+    <value>sideBarPanel</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
@@ -3731,14 +3731,14 @@
   <data name="EventID.Width" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
-  <data name="&gt;&gt;signEventsBindingSource.Name" xml:space="preserve">
-    <value>signEventsBindingSource</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>831, 81</value>
+  <data name="Btn_ResendDoc.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
+  </data>
+  <data name="Mobile.HeaderText" xml:space="preserve">
+    <value>שם המסמך</value>
   </data>
   <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -3758,11 +3758,11 @@
   <data name="btnSelect.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
-  <data name="btnSelect.TabIndex" type="System.Int32, mscorlib">
-    <value>58</value>
+  <data name="logoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;documentsTableAdapter.Name" xml:space="preserve">
+    <value>documentsTableAdapter</value>
   </data>
   <data name="&gt;&gt;btnSelect.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3785,14 +3785,14 @@
   <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
     <value>dateTimePicker1</value>
   </data>
-  <data name="EmployeeNum.HeaderText" xml:space="preserve">
-    <value>ת.ז. עובד</value>
+  <data name="&gt;&gt;ButtonMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Link.HeaderText" xml:space="preserve">
     <value>קישור למסמך חתום</value>
   </data>
-  <data name="&gt;&gt;Link.Name" xml:space="preserve">
-    <value>Link</value>
+  <data name="&gt;&gt;Department.Name" xml:space="preserve">
+    <value>Department</value>
   </data>
   <data name="&gt;&gt;Lbl_MainMenu.Parent" xml:space="preserve">
     <value>logoPanel</value>
@@ -3800,14 +3800,14 @@
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="btn_SelectForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
-  </data>
-  <data name="comboBox_EmpName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 122</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>שם מסמך</value>
@@ -3839,11 +3839,17 @@
   <data name="&gt;&gt;logoPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 100</value>
+  </data>
   <data name="&gt;&gt;signEventsDocumentsBindingSource.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBoxDocName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Btn_ResendDoc.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -3854,20 +3860,20 @@
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 13</value>
   </data>
-  <data name="&gt;&gt;sideBarPanel.Name" xml:space="preserve">
-    <value>sideBarPanel</value>
+  <data name="&gt;&gt;empSignDBDataSet.Type" xml:space="preserve">
+    <value>EmployeeManagementSystem.EmpSignDBDataSet, EmpSignDBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;Lbl_MainMenu.Name" xml:space="preserve">
     <value>Lbl_MainMenu</value>
   </data>
-  <data name="&gt;&gt;checkBoxDate.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="comboBox_EmpName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 122</value>
   </data>
   <data name="&gt;&gt;Signed.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
-    <value>180</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="&gt;&gt;Btn_ResendDoc.Name" xml:space="preserve">
     <value>Btn_ResendDoc</value>
@@ -3875,8 +3881,8 @@
   <data name="checkBoxDate.TabIndex" type="System.Int32, mscorlib">
     <value>59</value>
   </data>
-  <data name="EventID.HeaderText" xml:space="preserve">
-    <value>מזהה</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>שם עובד</value>
   </data>
   <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3896,11 +3902,14 @@
   <data name="Btn_ResendDoc.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 138</value>
   </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnSelect.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;emploeesTableAdapter.Type" xml:space="preserve">
     <value>EmployeeManagementSystem.EmpSignDBDataSetTableAdapters.EmploeesTableAdapter, EmpSignDBDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -3908,14 +3917,17 @@
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>817, 173</value>
   </data>
-  <data name="btn_SelectForm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="sideBarPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
   </data>
-  <data name="Mobile.HeaderText" xml:space="preserve">
-    <value>שם המסמך</value>
+  <data name="checkBoxEName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxEName.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>groupBox1</value>
@@ -3929,47 +3941,35 @@
   <data name="ButtonMarker.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 100</value>
   </data>
-  <data name="&gt;&gt;Btn_MissingDocs.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;logoPanel.Name" xml:space="preserve">
+    <value>logoPanel</value>
   </data>
-  <data name="ID.HeaderText" xml:space="preserve">
-    <value>ID</value>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
   </data>
-  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="dataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 59</value>
   </data>
-  <data name="checkBoxDocName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 14</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>822, 100</value>
+  <data name="&gt;&gt;signEventsBindingSource.Name" xml:space="preserve">
+    <value>signEventsBindingSource</value>
   </data>
   <data name="&gt;&gt;comboBox_EmpName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="checkBoxEName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnSelect.Text" xml:space="preserve">
+    <value>בצע</value>
   </data>
-  <data name="btnSelect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;checkBoxEName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;signEventsDocumentsBindingSource.Name" xml:space="preserve">
     <value>signEventsDocumentsBindingSource</value>
   </data>
-  <data name="&gt;&gt;ButtonMarker.Parent" xml:space="preserve">
-    <value>sideBarPanel</value>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 693</value>
   </data>
   <data name="comboBoxDocName.TabIndex" type="System.Int32, mscorlib">
     <value>63</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="btn_SelectForm.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 249</value>
@@ -3977,8 +3977,8 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1003, 753</value>
   </data>
-  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;Btn_MissingDocs.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="dateTimePicker1.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3992,23 +3992,23 @@
   <data name="&gt;&gt;empSignDB1DataSet.Type" xml:space="preserve">
     <value>EmployeeManagementSystem.EmpSignDB1DataSet, EmpSignDB1DataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="Lbl_MainMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 29</value>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>353, 25</value>
   </data>
-  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
-    <value>150</value>
+  <data name="&gt;&gt;emploeesTableAdapter.Name" xml:space="preserve">
+    <value>emploeesTableAdapter</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;empSignDBDataSet.Name" xml:space="preserve">
-    <value>empSignDBDataSet</value>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>819, 129</value>
+  <data name="&gt;&gt;Link.Name" xml:space="preserve">
+    <value>Link</value>
   </data>
   <data name="Department.HeaderText" xml:space="preserve">
     <value>מחלקה</value>
@@ -4016,7 +4016,7 @@
   <data name="&gt;&gt;btn_SelectForm.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
@@ -4040,16 +4040,16 @@
   <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="emploeesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+  <metadata name="documentsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>620, 17</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="emploeesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>963, 17</value>
   </metadata>
   <metadata name="EmployeeNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Department.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -4073,8 +4073,8 @@
   <metadata name="FullName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="documentsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>620, 17</value>
+  <metadata name="Email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -4082,8 +4082,8 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="emploeesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>963, 17</value>
+  <metadata name="emploeesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
   </metadata>
   <metadata name="Mobile.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -4097,7 +4097,7 @@
   <metadata name="EventID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Department.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

@@ -35,16 +35,12 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnSelect = new System.Windows.Forms.Button();
             this.checkBoxDate = new System.Windows.Forms.CheckBox();
             this.checkBoxEName = new System.Windows.Forms.CheckBox();
-            this.checkBoxDocName = new System.Windows.Forms.CheckBox();
             this.comboBox_EmpName = new System.Windows.Forms.ComboBox();
             this.emploeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.empSignDBDataSet = new EmployeeManagementSystem.EmpSignDBDataSet();
-            this.comboBoxDocName = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.signEventsDocumentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.signEventsBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -65,7 +61,6 @@
             this.Btn_ResendDoc = new System.Windows.Forms.Button();
             this.btn_SelectForm = new System.Windows.Forms.Button();
             this.Btn_MissingDocs = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.EventID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -74,6 +69,11 @@
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Department = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Link = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSelect = new System.Windows.Forms.Button();
+            this.checkBoxDocName = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBoxDocName = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.emploeesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.empSignDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.signEventsDocumentsBindingSource)).BeginInit();
@@ -109,27 +109,10 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            // 
-            // btnSelect
-            // 
-            resources.ApplyResources(this.btnSelect, "btnSelect");
-            this.btnSelect.BackColor = System.Drawing.Color.Green;
-            this.btnSelect.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSelect.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
-            this.btnSelect.FlatAppearance.BorderSize = 0;
-            this.btnSelect.ForeColor = System.Drawing.Color.White;
-            this.btnSelect.Name = "btnSelect";
-            this.btnSelect.UseVisualStyleBackColor = false;
-            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // checkBoxDate
             // 
@@ -144,13 +127,6 @@
             this.checkBoxEName.Name = "checkBoxEName";
             this.checkBoxEName.UseVisualStyleBackColor = true;
             this.checkBoxEName.CheckedChanged += new System.EventHandler(this.checkBoxEName_CheckedChanged);
-            // 
-            // checkBoxDocName
-            // 
-            resources.ApplyResources(this.checkBoxDocName, "checkBoxDocName");
-            this.checkBoxDocName.Name = "checkBoxDocName";
-            this.checkBoxDocName.UseVisualStyleBackColor = true;
-            this.checkBoxDocName.CheckedChanged += new System.EventHandler(this.checkBoxDocName_CheckedChanged);
             // 
             // comboBox_EmpName
             // 
@@ -169,13 +145,6 @@
             // 
             this.empSignDBDataSet.DataSetName = "EmpSignDBDataSet";
             this.empSignDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // comboBoxDocName
-            // 
-            resources.ApplyResources(this.comboBoxDocName, "comboBoxDocName");
-            this.comboBoxDocName.FormattingEnabled = true;
-            this.comboBoxDocName.Name = "comboBoxDocName";
-            this.comboBoxDocName.SelectedIndexChanged += new System.EventHandler(this.comboBoxDocName_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -355,16 +324,6 @@
             this.Btn_MissingDocs.Name = "Btn_MissingDocs";
             this.Btn_MissingDocs.UseVisualStyleBackColor = false;
             // 
-            // groupBox1
-            // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Controls.Add(this.comboBoxDocName);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.checkBoxDocName);
-            this.groupBox1.Controls.Add(this.btnSelect);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
-            // 
             // EventID
             // 
             this.EventID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
@@ -430,6 +389,47 @@
             this.Link.Name = "Link";
             this.Link.ReadOnly = true;
             // 
+            // btnSelect
+            // 
+            resources.ApplyResources(this.btnSelect, "btnSelect");
+            this.btnSelect.BackColor = System.Drawing.Color.Green;
+            this.btnSelect.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSelect.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
+            this.btnSelect.FlatAppearance.BorderSize = 0;
+            this.btnSelect.ForeColor = System.Drawing.Color.White;
+            this.btnSelect.Name = "btnSelect";
+            this.btnSelect.UseVisualStyleBackColor = false;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
+            // 
+            // checkBoxDocName
+            // 
+            resources.ApplyResources(this.checkBoxDocName, "checkBoxDocName");
+            this.checkBoxDocName.Name = "checkBoxDocName";
+            this.checkBoxDocName.UseVisualStyleBackColor = true;
+            this.checkBoxDocName.CheckedChanged += new System.EventHandler(this.checkBoxDocName_CheckedChanged);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // comboBoxDocName
+            // 
+            resources.ApplyResources(this.comboBoxDocName, "comboBoxDocName");
+            this.comboBoxDocName.FormattingEnabled = true;
+            this.comboBoxDocName.Name = "comboBoxDocName";
+            this.comboBoxDocName.SelectedIndexChanged += new System.EventHandler(this.comboBoxDocName_SelectedIndexChanged);
+            // 
+            // groupBox1
+            // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.comboBoxDocName);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.checkBoxDocName);
+            this.groupBox1.Controls.Add(this.btnSelect);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
             // Report
             // 
             resources.ApplyResources(this, "$this");
@@ -470,14 +470,10 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnSelect;
         private System.Windows.Forms.CheckBox checkBoxDate;
         private System.Windows.Forms.CheckBox checkBoxEName;
-        private System.Windows.Forms.CheckBox checkBoxDocName;
         private System.Windows.Forms.ComboBox comboBox_EmpName;
-        private System.Windows.Forms.ComboBox comboBoxDocName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.BindingSource signEventsDocumentsBindingSource;
         private EmpSignDB1DataSetTableAdapters.DocumentsTableAdapter documentsTableAdapter;
@@ -498,7 +494,6 @@
         private System.Windows.Forms.Button Btn_ResendDoc;
         private System.Windows.Forms.Button btn_SelectForm;
         private System.Windows.Forms.Button Btn_MissingDocs;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn EventID;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
@@ -507,5 +502,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Department;
         private System.Windows.Forms.DataGridViewTextBoxColumn Link;
+        private System.Windows.Forms.Button btnSelect;
+        private System.Windows.Forms.CheckBox checkBoxDocName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBoxDocName;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

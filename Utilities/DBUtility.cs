@@ -44,7 +44,7 @@ namespace Utilities
                     cn.Open();
                 OleDbCommand cmd = cn.CreateCommand();
                 /// ----  Documents Table   ---///
-                cmd.CommandText = "CREATE TABLE Documents(ID int IDENTITY(1,1) PRIMARY KEY NOT NULL,DocName VARCHAR(50),DocDescription VARCHAR(150),DocFileName VARCHAR(100))";
+                cmd.CommandText = "CREATE TABLE Documents(ID int IDENTITY(1,1) PRIMARY KEY NOT NULL,DocName VARCHAR(50),SignID int,SignedFullPath VARCHAR(200))";
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -72,7 +72,7 @@ namespace Utilities
                     cn.Open();
                 OleDbCommand cmd = cn.CreateCommand();
                 /// ----  Groups Table   ---///
-                cmd.CommandText = "CREATE TABLE SignEvents(ID int IDENTITY(1,1) PRIMARY KEY NOT NULL,Date DATETIME,Marked BINARY,Document VARCHAR(50))";
+                cmd.CommandText = "CREATE TABLE SignEvents(ID int IDENTITY(1,1) PRIMARY KEY NOT NULL, EmployeeID VARCHAR(50), Date DATETIME, Marked BINARY, Document VARCHAR(50), SignDate DATETIME)";
                 cmd.ExecuteNonQuery();
 
                 cn.Close();
@@ -521,8 +521,8 @@ namespace Utilities
             {
                 // string strSQL = "SELECT * FROM SignEvents ORDER BY ID DESC";
                 string strSQL = @"SELECT SignEvents.ID, SignEvents.EmployeeID, SignEvents.[Date] AS SentDate, SignEvents.Marked AS Signed, SignEvents.Document, SignEvents.SignDate, Emploees.FullName, Documents.SignedFullPath
-                                FROM(SignEvents INNER JOIN Emploees ON SignEvents.EmployeeID = Emploees.EmployeeID
-                                INNER JOIN Documents ON SignEvents.ID = Documents.SignID)";
+                                FROM ((SignEvents INNER JOIN Emploees ON SignEvents.EmployeeID = Emploees.EmployeeID)
+                                LEFT JOIN Documents ON SignEvents.ID = Documents.SignID)";
 
                 OleDbCommand myCommand = new OleDbCommand(strSQL, cn);
 
